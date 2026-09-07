@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+scripts/abc_urls.txt
+*.7z
+.DS_Store

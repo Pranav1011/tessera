@@ -1,0 +1,21 @@
+{
+  "source": "ABC dataset chunk 0000, first 300 models (real CAD geometry)",
+  "models": 290,
+  "valid": 217,
+  "quarantined": 73,
+  "quarantined_pct": 25.2,
+  "load_crashes": 0,
+  "error_breakdown": {
+    "NOT_WATERTIGHT": 47,
+    "NON_MANIFOLD_EDGE": 45,
+    "GENUS_ANOMALY": 22,
+    "INCONSISTENT_NORMALS": 3,
+    "UNIT_SCALE_IMPLAUSIBLE": 3,
+    "DEGENERATE_FACE": 2
+  },
+  "median_faces": 39376,
+  "max_faces": 2271312,
+  "throughput_serial_per_hr": 5504,
+  "throughput_6worker_per_hr": 17263,
+  "speedup": 3.14
+}
